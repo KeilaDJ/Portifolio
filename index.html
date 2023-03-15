@@ -185,22 +185,23 @@
         <section class="contact" id="contact">
             <h2 class="heading">Contact <span>Me!</span></h2>
 
-            <form action="https://api.staticforms.xyz/submit" method="post">
+             <form action="https://api.staticforms.xyz/submit" method="post">
+                <input type="hidden" name="accessKey" value="21852169-37e3-4cbb-b461-f41eb8d74ff4">
+                
                 <div class="input-box">
-                    <input type="text" placeholder="Full Name" autocomplete="off">
-                    <input type="email" placeholder="Email Address" autocomplete="off">
+                    <input type="text" placeholder="Full Name" name="name" autocomplete="off">
+                    <input type="email" placeholder="Email Address" name="email" autocomplete="off">
                 </div>
                 
                 <div class="input-box">
-                    <input type="number" placeholder="Mobile Number" autocomplete="off">
-                    <input type="email" placeholder="Email Subject" autocomplete="off">
+                    <input type="number" placeholder="Mobile Number" name="phone" autocomplete="off">
+                    <input type="email" placeholder="Email Subject" name="subject" autocomplete="off">
                 </div>
 
-                <textarea name="" id="" cols="30" rows="10" placeholder=" Your Message" autocomplete="off"></textarea>
+                <textarea name="message" id="textAreaMensagem" cols="30" rows="10" placeholder=" Your Message" autocomplete="off"></textarea>
                 <input type="submit" value="Send Message" class="btn">
            
-                <input type="hidden" name="accessKey" value="21852169-37e3-4cbb-b461-f41eb8d74ff4">
-                <input type="hidden" name="redirectTo" value="https://vocal-cajeta-80be18.netlify.app/Obrigado.html">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/Portifolio/Obrigado.html">
                 <input type="text" name="honeypot" style="display: none;">
             </form>
         </section>
