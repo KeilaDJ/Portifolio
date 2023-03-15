@@ -350,7 +350,7 @@ span {
 }
 
 .skill-container .box-title p{
-    margin-left: 20em;
+    margin-left: 17em;
     font-size: 20px;
 }
 
@@ -359,7 +359,7 @@ span {
 }
 
 .skill-container .box-title .b1 {
-    width: 480px;
+    width: 380px;
     height: 15px;
     background: var(--bg-color);
     margin-top: 9px;
