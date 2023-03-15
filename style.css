@@ -442,6 +442,28 @@ span {
     cursor: pointer
 }
 
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background:var(--bg-color);
+    flex-direction: column;
+ }
+
+ .text{
+     font-size: 45px;
+     color:var(--text-color);
+     margin-bottom: 30px;
+ }
+
+ .paragrafo{
+    font-size: 20px;
+     color: var(--text-color);
+     margin-bottom: 50px;
+ }
+
+
 .footer {
     display: flex;
     justify-content: space-between;
