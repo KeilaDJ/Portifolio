@@ -351,11 +351,16 @@ span {
 
 .skill-container .box-title p{
     margin-left: 20em;
+    font-size: 20px;
+}
+
+.skill-container .box-title span{
+    font-size: 18px;
 }
 
 .skill-container .box-title .b1 {
-    width: 300px;
-    height: 8px;
+    width: 480px;
+    height: 15px;
     background: var(--bg-color);
     margin-top: 9px;
     border-radius: 5px
@@ -363,7 +368,7 @@ span {
 
 .skill-container .box-title .b2 {
     width: 90%;
-    height: 8px;
+    height: 15px;
     background: var(--main-color);
     box-shadow: 0 0 1rem var(--main-color);
     border-radius: 5px
@@ -371,7 +376,7 @@ span {
 
 .skill-container .box-title .b3 {
     width: 80%;
-    height: 8px;
+    height: 15px;
     background: var(--main-color);
     box-shadow: 0 0 1rem var(--main-color);
     border-radius: 5px
@@ -379,7 +384,7 @@ span {
 
 .skill-container .box-title .b4 {
     width: 50%;
-    height: 8px;
+    height: 15px;
     background: var(--main-color);
     box-shadow: 0 0 1rem var(--main-color);
     border-radius: 5px
@@ -387,7 +392,7 @@ span {
 
 .skill-container .box-title .b5 {
     width: 30%;
-    height: 8px;
+    height: 15px;
     background: var(--main-color);
     box-shadow: 0 0 1rem var(--main-color);
     border-radius: 5px
